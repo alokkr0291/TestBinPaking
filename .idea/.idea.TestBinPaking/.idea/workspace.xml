@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="decfb7d7-69a4-40fb-adc1-eaf527f11afd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/SpawnerScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/MySpwaner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyBinPaker/MyBInPack/Internal/Shelf.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/BoxJSON.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyBinPaker/MyBInPack/Internal/Guillotine2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5A41D6B7-1898-42EC-A409-FD0B1C3E3DCF/48/0f0119a2/IList`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyBinPaker/MyBInPack/Internal/ShelfChoiceHeuristic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyBinPaker/MyBInPack/Algorithms/BinPackShelfAlgorithm.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5A41D6B7-1898-42EC-A409-FD0B1C3E3DCF/86/61ce4553/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyBinPaker/MyBInPack/Algorithms/BinPackGuillotineAlgorithm.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyBinPaker/MyBInPack/BinPacker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Test/MyTest1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/BoxGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyBinPaker/MyBInPack/IBinPacker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyBinPaker/MYBinPackExample/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyBinPaker/MyBInPack/Cuboid.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/SKU_Script.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/BoxListJSON.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyBinPaker/MyBInPack/IBinPackAlgorithm.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyBinPaker/MyBInPack/BinPackParameter.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Sharp3DBinPacking-master/Sharp3DBinPacking/BinPacker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TextFileRead.cs" />
+        <option value="$PROJECT_DIR$/Assets/Test/MyTest1.cs" />
+        <option value="$PROJECT_DIR$/Assets/MyBinPaker/Sharp3DBinPacking/Cuboid.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MockJSON 1.json" />
+        <option value="$PROJECT_DIR$/Assets/MyBinPaker/Sharp3DBinPacking/BinPacker.cs" />
+        <option value="$PROJECT_DIR$/Assets/MyBinPaker/Sharp3DBinPacking/Algorithms/BinPackShelfAlgorithm.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_JSONS/MObackJson.json" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnerScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BoxGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyBinPaker/MyBInPack/Internal/FreeRectChoiceHeuristic.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyBinPaker/MyBInPack/Internal/GuillotineSplitHeuristic.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyBinPaker/MyBInPack/Internal/FreeCuboidChoiceHeuristic.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_JSONS/MockJSON 1.json" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyScripts/SpawnerScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyBinPaker/MyBInPack/Algorithms/BinPackShelfAlgorithm.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_JSONS/Replica.json" />
+        <option value="$PROJECT_DIR$/Assets/src/CromulentBisgetti.ContainerPackingTests/ContainerPackingTests.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyBinPaker/MyBInPack/Internal/ShelfChoiceHeuristic.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyScripts/SKU_Script.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyBinPaker/MyBInPack/Cuboid.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyScripts/MySpwaner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyBinPaker/MyBInPack/BinPacker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyBinPaker/MyBInPack/Algorithms/BinPackGuillotineAlgorithm.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2W3eJiMQqhvv3xWH0ATrG8zZea1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="383" y="189" width="672" height="678" key="search.everywhere.popup" timestamp="1696515990054">
+      <screen x="0" y="25" width="1440" height="843" />
+    </state>
+    <state x="383" y="189" width="672" height="678" key="search.everywhere.popup/0.25.1440.843@0.25.1440.843" timestamp="1696515990054" />
+  </component>
+</project>

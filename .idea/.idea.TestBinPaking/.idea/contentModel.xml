@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/resharper-host/local/Transient/ReSharperHost/v201/SolutionCaches/_TestBinPaking.560624633.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="_Scenes" t="Include">
+          <e p="Arts" t="Include">
+            <e p="3dMOdels" t="Include">
+              <e p="SKU MODels" t="Include">
+                <e p="box" t="Include" />
+              </e>
+            </e>
+            <e p="DunmmyAssets" t="Include">
+              <e p="DummyTruckTex" t="Include">
+                <e p="Materials" t="Include" />
+              </e>
+            </e>
+            <e p="PanoramaToCubemap" t="Include">
+              <e p="Editor" t="Include">
+                <e p="PanoramaToCubemap.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Planar_Reflection_ILK" t="Include">
+              <e p="PlanarRealtimeReflection.cs" t="Include" />
+            </e>
+            <e p="Sku_materials" t="Include">
+              <e p="Sku_materials" t="Include" />
+            </e>
+            <e p="UI-Images" t="Include" />
+          </e>
+        </e>
+        <e p="Art" t="Include">
+          <e p="Materials" t="Include" />
+        </e>
+        <e p="Prefab" t="Include" />
+        <e p="Resources" t="Include" />
+        <e p="Scenes" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="_JSONS" t="Include">
+            <e p="MObackJson.json" t="Include" />
+            <e p="MockJSON 1.json" t="Include" />
+            <e p="MockJSON.json" t="Include" />
+            <e p="Replica.json" t="Include" />
+          </e>
+          <e p="MyBinPaker" t="Include">
+            <e p="MyBInPack" t="Include">
+              <e p="Algorithms" t="Include">
+                <e p="BinPackGuillotineAlgorithm.cs" t="Include" />
+                <e p="BinPackShelfAlgorithm.cs" t="Include" />
+              </e>
+              <e p="BinPacker.cs" t="Include" />
+              <e p="BinPackerVerifyOption.cs" t="Include" />
+              <e p="BinPackParameter.cs" t="Include" />
+              <e p="BinPackResult.cs" t="Include" />
+              <e p="Cuboid.cs" t="Include" />
+              <e p="IBinPackAlgorithm.cs" t="Include" />
+              <e p="IBinPacker.cs" t="Include" />
+              <e p="Internal" t="Include">
+                <e p="Guillotine2D.cs" t="Include" />
+                <e p="Rectangle.cs" t="Include" />
+                <e p="Shelf.cs" t="Include" />
+                <e p="ShelfChoiceHeuristic.cs" t="Include" />
+                <e p="Size.cs" t="Include" />
+              </e>
+            </e>
+            <e p="MYBinPackExample" t="Include">
+              <e p="Program.cs" t="Include" />
+            </e>
+            <e p="MyBinPackTest" t="Include">
+              <e p="Program.cs" t="Include" />
+            </e>
+          </e>
+          <e p="MyScripts" t="Include">
+            <e p="BoxGenerator.cs" t="Include" />
+            <e p="BoxJSON.cs" t="Include" />
+            <e p="BoxListJSON.cs" t="Include" />
+            <e p="CameraScript.cs" t="Include" />
+            <e p="ColorJSON.cs" t="Include" />
+            <e p="HooksScript.cs" t="Include" />
+            <e p="MySpwaner.cs" t="Include" />
+            <e p="NewDrag.cs" t="Include" />
+            <e p="RoomJSON.cs" t="Include" />
+            <e p="SKU_Script.cs" t="Include" />
+            <e p="SpawnerScript.cs" t="Include" />
+          </e>
+          <e p="Refrence" t="Include">
+            <e p="Items.cs" t="Include" />
+            <e p="PoolingList.cs" t="Include" />
+          </e>
+          <e p="text_files" t="Include">
+            <e p="read.txt" t="Include" />
+            <e p="write.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Test" t="Include">
+          <e p="MyTest1.cs" t="Include" />
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Documentation" t="Include" />
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="Fonts &amp; Materials" t="Include" />
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Sprite Assets" t="Include" />
+            <e p="Style Sheets" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+            <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+            <e p="TMP_Bitmap.shader" t="Include" />
+            <e p="TMP_SDF Overlay.shader" t="Include" />
+            <e p="TMP_SDF SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+            <e p="TMP_SDF-Mobile SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface.shader" t="Include" />
+            <e p="TMP_SDF.shader" t="Include" />
+            <e p="TMP_Sprite.shader" t="Include" />
+            <e p="TMPro.cginc" t="Include" />
+            <e p="TMPro_Mobile.cginc" t="Include" />
+            <e p="TMPro_Properties.cginc" t="Include" />
+            <e p="TMPro_Surface.cginc" t="Include" />
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+            <e p="EmojiOne.json" t="Include" />
+          </e>
+        </e>
+        <e p="ThirdParty" t="Include">
+          <e p="src" t="Include">
+            <e p="CromulentBisgetti.ContainerPacking" t="Include">
+              <e p="Algorithms" t="Include">
+                <e p="AlgorithmBase.cs" t="Include" />
+                <e p="AlgorithmType.cs" t="Include" />
+                <e p="EB_AFIT.cs" t="Include" />
+                <e p="IPackingAlgorithm.cs" t="Include" />
+              </e>
+              <e p="Entities" t="Include">
+                <e p="AlgorithmPackingResult.cs" t="Include" />
+                <e p="Container.cs" t="Include" />
+                <e p="ContainerPackingResult.cs" t="Include" />
+                <e p="Item.cs" t="Include" />
+              </e>
+              <e p="PackingService.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp/Bin" t="ExcludeRecursive" />
+      <e p="TestBinPaking.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
