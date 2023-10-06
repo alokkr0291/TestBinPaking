@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using UnityEngine;
 
 namespace MobackPacker
 {
@@ -22,7 +23,10 @@ namespace MobackPacker
         public decimal Z { get; set; }
         public decimal Weight { get; set; }
         
+        public Vector3 Pos = Vector3.zero;
         public int Layer { get; set; }
+        
+        //public Vector3 Matrix
         public object Tag { get; set; }
         
         public RotationDirection RotationDir { get; set; }

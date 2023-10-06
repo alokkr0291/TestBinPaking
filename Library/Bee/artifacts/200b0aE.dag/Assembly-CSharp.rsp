@@ -377,6 +377,7 @@
 "Assets/Scripts/Refrence/Items.cs"
 "Assets/Scripts/Refrence/PoolingList.cs"
 "Assets/Test/MyTest1.cs"
+"Assets/Test/test2.cs"
 "Assets/ThirdParty/src/CromulentBisgetti.ContainerPacking/Algorithms/AlgorithmBase.cs"
 "Assets/ThirdParty/src/CromulentBisgetti.ContainerPacking/Algorithms/AlgorithmType.cs"
 "Assets/ThirdParty/src/CromulentBisgetti.ContainerPacking/Algorithms/EB_AFIT.cs"

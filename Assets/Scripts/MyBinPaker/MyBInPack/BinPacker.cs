@@ -43,7 +43,7 @@ namespace MobackPacker
                 decimal singleBestVolumeRate = 0;
                 string singleBestAlgorihm = null;
                // Debug.Log($"algo count  --> {_factories.Length}");
-                var factory = _factories[3];
+                var factory = _factories[4];
                // foreach (var factory in _factories)
                 {
                     var algorithm = factory(parameter);
@@ -178,9 +178,9 @@ namespace MobackPacker
             IEnumerable<Cuboid> cuboids, int shuffleCount)
         {
             Debug.Log($" GetCuboidsPermutations");
-            yield return cuboids;
+           // yield return cuboids;
             //yield return cuboids.OrderByDescending(x => Math.Max(Math.Max(x.Width, x.Height), x.Depth));
-            //yield return cuboids.OrderByDescending(x => x.Width * x.Height * x.Depth);
+            yield return cuboids.OrderByDescending(x => x.Width * x.Height * x.Depth);
           //  yield return cuboids.OrderBy(x => Math.Max(Math.Max(x.Width, x.Height), x.Depth));
             // if (shuffleCount > 0)
             // {

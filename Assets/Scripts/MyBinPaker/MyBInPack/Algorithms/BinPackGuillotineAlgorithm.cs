@@ -14,7 +14,8 @@ namespace MobackPacker.Algorithms
         private readonly GuillotineSplitHeuristic _splitMethod;
         private readonly List<Cuboid> _usedCuboids;
         private readonly List<Cuboid> _TruckCuboids;
-
+        private static Cuboid[,,] binMatrix;
+        
         public BinPackGuillotineAlgorithm(BinPackParameter parameter, FreeCuboidChoiceHeuristic cuboidChoice, GuillotineSplitHeuristic splitMethod)
         {
             _parameter = parameter;
@@ -25,6 +26,7 @@ namespace MobackPacker.Algorithms
             AddFreeCuboid(new Cuboid(parameter.BinWidth, parameter.BinHeight, parameter.BinDepth));
             Debug.Log($" MyTruck--> {_TruckCuboids[0].Width} -{_TruckCuboids[0].Height} -{_TruckCuboids[0].Depth}");
             //  Debug.Log($" parameter.BinWidth--> {parameter.BinWidth} -{parameter.BinHeight} -{parameter.BinDepth}");
+            binMatrix = new Cuboid[decimal.ToInt32(parameter.BinWidth), decimal.ToInt32(parameter.BinHeight), decimal.ToInt32(parameter.BinDepth)];
             
         }
 
@@ -91,8 +93,7 @@ namespace MobackPacker.Algorithms
                         bestScore = GetBestScore(cuboid, out freeCuboidIndex, freeCuboidList,
                             width, height, depth, score, index,RotationDirection.None);
                     }
-
-                    // Debug.Log($"1 FindPositionForNewNode --> {bestScore}");
+                    
                 }
                 
                 //2 Width x Depth x Height (rotate vertically)
@@ -116,7 +117,6 @@ namespace MobackPacker.Algorithms
                         // cuboid.Layer = cuboid.Y == 0 ? 0 : Convert.ToInt32 (cuboid.Height / cuboid.Y);
 
                     }
-                    // Debug.Log($"2 FindPositionForNewNode --> {bestScore}");
                 }
 
                 
@@ -217,7 +217,7 @@ namespace MobackPacker.Algorithms
             }
         }
 
-        private static decimal GetBestScore(Cuboid cuboid, out int freeCuboidIndex, Cuboid freeCuboidList, decimal width,
+        private  decimal GetBestScore(Cuboid cuboid, out int freeCuboidIndex, Cuboid freeCuboidList, decimal width,
             decimal height, decimal depth, decimal score, int index, RotationDirection dir)
         {
             decimal bestScore;
@@ -231,11 +231,15 @@ namespace MobackPacker.Algorithms
             bestScore = score;
             freeCuboidIndex = index;
             cuboid.RotationDir = dir;
-            if(cuboid.Y !=0)
-             Debug.Log($"{cuboid.Y}/{cuboid.Height} --> {Convert.ToInt32(cuboid.Y / cuboid.Height)}");
-            cuboid.Layer = cuboid.Y == 0 ? 0 : Convert.ToInt32(cuboid.Y / cuboid.Height);
+            float averageHeight = 1.76f;
+           int tempHeight = Convert.ToInt32(cuboid.Y);
+           cuboid.Layer = cuboid.Y == 0 ? 1 : (int) Math.Ceiling(tempHeight / averageHeight);
+           
             return bestScore;
         }
+        
+        
+
 
         private static decimal ScoreByHeuristic(Cuboid cuboid, Cuboid freeCuboid, FreeCuboidChoiceHeuristic cuboidChoice)
         {
@@ -287,6 +291,9 @@ namespace MobackPacker.Algorithms
             // Perform the actual split.
             SplitFreeCuboidAlongAxis(freeCuboid, placedCuboid, splitHorizontal);
         }
+
+  
+
 
         private void SplitFreeCuboidAlongAxis(Cuboid freeCuboid, Cuboid placedCuboid, bool splitHorizontal)
         {

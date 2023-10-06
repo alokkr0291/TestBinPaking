@@ -98,6 +98,7 @@
         </e>
         <e p="Test" t="Include">
           <e p="MyTest1.cs" t="Include" />
+          <e p="test2.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Documentation" t="Include" />

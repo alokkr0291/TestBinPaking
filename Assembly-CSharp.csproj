@@ -81,6 +81,7 @@
      <Compile Include="Assets/ThirdParty/src/CromulentBisgetti.ContainerPacking/Entities/Item.cs" />
      <Compile Include="Assets/Scripts/MyBinPaker/MyBInPack/Cuboid.cs" />
      <Compile Include="Assets/ThirdParty/src/CromulentBisgetti.ContainerPacking/PackingService.cs" />
+     <Compile Include="Assets/Test/test2.cs" />
      <Folder Include="Assets" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
