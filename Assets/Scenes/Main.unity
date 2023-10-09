@@ -451,7 +451,7 @@ MonoBehaviour:
   noOf_1L: 100
   noOf4L: 300
   noOf_10L: 100
-  noOf_20L: 500
+  noOf_20L: 100
 --- !u!4 &1586709502
 Transform:
   m_ObjectHideFlags: 0

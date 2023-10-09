@@ -53,10 +53,6 @@ namespace MobackPacker.Algorithms
             if (!cuboid.IsPlaced)
                 return;
             
-            //  Debug.Log($" --> {_TruckCuboids.Count}");
-          //  Debug.Log($"free**** -{freeNodeIndex}--> {_TruckCuboids[freeNodeIndex]}");
-          // Remove the space that was just consumed by the new cuboid
-          
             if (freeNodeIndex < 0)
                 throw new ArithmeticException("freeNodeIndex < 0");
             SplitFreeCuboidByHeuristic(_TruckCuboids[freeNodeIndex], cuboid, splitMethod);
@@ -104,17 +100,7 @@ namespace MobackPacker.Algorithms
                     {
                         bestScore = GetBestScore(cuboid, out freeCuboidIndex, freeCuboidList,
                             width, depth, height, score, index,RotationDirection.Vertical);
-                        // cuboid.IsPlaced = true;
-                        // cuboid.X = freeCuboidList.X;
-                        // cuboid.Y = freeCuboidList.Y;
-                        // cuboid.Z = freeCuboidList.Z;
-                        // cuboid.Width = width;
-                        // cuboid.Height = depth;
-                        // cuboid.Depth = height;
-                        // bestScore = score;
-                        // freeCuboidIndex = index;
-                        // cuboid.RotationDir = RotationDirection.Vertical;
-                        // cuboid.Layer = cuboid.Y == 0 ? 0 : Convert.ToInt32 (cuboid.Height / cuboid.Y);
+                
 
                     }
                 }
@@ -128,17 +114,7 @@ namespace MobackPacker.Algorithms
                     {
                         bestScore = GetBestScore(cuboid, out freeCuboidIndex, freeCuboidList,
                             depth, height, width, score, index,RotationDirection.Horizontal);
-                        // cuboid.IsPlaced = true;
-                        // cuboid.X = freeCuboidList.X;
-                        // cuboid.Y = freeCuboidList.Y;
-                        // cuboid.Z = freeCuboidList.Z;
-                        // cuboid.Width = depth;
-                        // cuboid.Height = height;
-                        // cuboid.Depth = width;
-                        // bestScore = score;
-                        // freeCuboidIndex = index;
-                        // cuboid.RotationDir = RotationDirection.Horizontal;
-                        // cuboid.Layer = cuboid.Y == 0 ? 0 : Convert.ToInt32 (cuboid.Height / cuboid.Y);
+                       
                     }
                     // Debug.Log($"3 FindPositionForNewNode --> {bestScore}");
                 }
@@ -151,17 +127,7 @@ namespace MobackPacker.Algorithms
                     {
                         bestScore = GetBestScore(cuboid, out freeCuboidIndex, freeCuboidList,
                             depth, width, height, score, index,RotationDirection.Both);
-                        // cuboid.IsPlaced = true;
-                        // cuboid.X = freeCuboidList.X;
-                        // cuboid.Y = freeCuboidList.Y;
-                        // cuboid.Z = freeCuboidList.Z;
-                        // cuboid.Width = depth;
-                        // cuboid.Height = width;
-                        // cuboid.Depth = height;
-                        // bestScore = score;
-                        // freeCuboidIndex = index;
-                        // cuboid.RotationDir = RotationDirection.Both;
-                        // cuboid.Layer = cuboid.Y == 0 ? 0 : Convert.ToInt32 (cuboid.Height / cuboid.Y);
+     
                     }
                     // Debug.Log($"4 FindPositionForNewNode --> {bestScore}");
                 }
@@ -175,17 +141,7 @@ namespace MobackPacker.Algorithms
                     {
                         bestScore = GetBestScore(cuboid, out freeCuboidIndex, freeCuboidList,
                             height, width, depth, score, index,RotationDirection.Vertical);
-                        // cuboid.IsPlaced = true;
-                        // cuboid.X = freeCuboidList.X;
-                        // cuboid.Y = freeCuboidList.Y;
-                        // cuboid.Z = freeCuboidList.Z;
-                        // cuboid.Width = height;
-                        // cuboid.Height = width;
-                        // cuboid.Depth = depth;
-                        // bestScore = score;
-                        // freeCuboidIndex = index;
-                        // cuboid.RotationDir = RotationDirection.Vertical;
-                        // cuboid.Layer = cuboid.Y == 0 ? 0 : Convert.ToInt32 (cuboid.Height / cuboid.Y);
+                     
                     }
                     // Debug.Log($"5 FindPositionForNewNode --> {bestScore}");
                 }
@@ -199,17 +155,7 @@ namespace MobackPacker.Algorithms
                     {
                         bestScore = GetBestScore(cuboid, out freeCuboidIndex, freeCuboidList,
                             height, depth, width, score, index,RotationDirection.Both);
-                        // cuboid.IsPlaced = true;
-                        // cuboid.X = freeCuboidList.X;
-                        // cuboid.Y = freeCuboidList.Y;
-                        // cuboid.Z = freeCuboidList.Z;
-                        // cuboid.Width = height;
-                        // cuboid.Height = depth;
-                        // cuboid.Depth = width;
-                        // bestScore = score;
-                        // freeCuboidIndex = index;
-                        // cuboid.RotationDir = RotationDirection.Both;
-                        // cuboid.Layer = cuboid.Y == 0 ? 0 : Convert.ToInt32 (cuboid.Height / cuboid.Y);
+                   
                         
                     }
                     //  Debug.Log($"6 FindPositionForNewNode --> {bestScore}");
