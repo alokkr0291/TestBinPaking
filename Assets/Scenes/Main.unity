@@ -449,9 +449,10 @@ MonoBehaviour:
   prefab_10L: {fileID: 5733024829142965843, guid: bcce702fa10324b40ac61d20ad48284a, type: 3}
   prefab_20L: {fileID: 7356970954090500546, guid: 0bd6528fb963949059e2527a99160917, type: 3}
   noOf_1L: 100
-  noOf4L: 300
+  noOf4L: 100
   noOf_10L: 100
   noOf_20L: 100
+  maxLayerValue: 0
 --- !u!4 &1586709502
 Transform:
   m_ObjectHideFlags: 0
