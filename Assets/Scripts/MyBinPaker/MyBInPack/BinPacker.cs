@@ -21,7 +21,7 @@ namespace MobackPacker
             _factories = factories;
             for (int i = 0; i < factories.Length; i++)
             {
-                Debug.Log($"algo --> {factories[0].Method.MemberType}");
+               // Debug.Log($"algo --> {factories[0].Method.MemberType}");
             }
            
         }

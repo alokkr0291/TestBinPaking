@@ -47,7 +47,7 @@ public class MySpwaner : MonoBehaviour
         //BinPackResult packedboxes = binPackWebBoxes(jsonBoxes, jsonDeserializeRoom(room));
         string[][] mySKUS = GetBoxes();
         string[] myTRuck = GetRoom();
-        Debug.Log($"*****skusLEngth --> {mySKUS.Length}");
+       // Debug.Log($"*****skusLEngth --> {mySKUS.Length}");
         BinPackResult packedboxes = binPackBoxes(mySKUS, myTRuck);
         for (int i = 0; i < packedboxes.BestResult[0].Count; i++)
         {
@@ -100,6 +100,7 @@ public class MySpwaner : MonoBehaviour
         script.IsPlaced = true;
         script.Tag = tag;
         script.Layer = box.Layer;
+        script.SKU_Id = box.UniqueId;
 
         if ( box.Layer > maxLayerValue)
             maxLayerValue = box.Layer;
@@ -113,6 +114,8 @@ public class MySpwaner : MonoBehaviour
             cuboidsByLayer[layer] = new List<GameObject>();
         }
         cuboidsByLayer[layer].Add(gameObject);
+
+        script.Coordinate = box.Coordinate;
     
         obj.SetActive(true);
     }

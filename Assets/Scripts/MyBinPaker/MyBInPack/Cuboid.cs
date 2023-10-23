@@ -15,6 +15,7 @@ namespace MobackPacker
     
     public class Cuboid
     {
+        public string UniqueId { get; set; }
         public decimal Width { get; set; }
         public decimal Height { get; set; }
         public decimal Depth { get; set; }
@@ -22,8 +23,8 @@ namespace MobackPacker
         public decimal Y { get; set; }
         public decimal Z { get; set; }
         public decimal Weight { get; set; }
-        
-        public Vector3 Pos = Vector3.zero;
+
+        public Vector3Int Coordinate { get; set; }
         public int Layer { get; set; }
         
         //public Vector3 Matrix

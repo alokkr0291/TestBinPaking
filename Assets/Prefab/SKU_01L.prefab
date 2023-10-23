@@ -79,6 +79,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4085b806ee8e54313b429b5d3dd05935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SKU_Id: 
   Dimension: {x: 0, y: 0, z: 0}
   Position: {x: 0, y: 0, z: 0}
   Weight: 0
@@ -87,3 +88,4 @@ MonoBehaviour:
   IsPlaced: 0
   Layer: 0
   Id: 0
+  Coordinate: {x: 0, y: 0, z: 0}
